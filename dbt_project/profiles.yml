@@ -1,0 +1,11 @@
+your_profile_name: dbt_project
+  target: classicmodels
+  outputs:
+    dev:
+      type: mysql
+      server: localhost
+      port: 3306
+      schema: analytics
+      username: root
+      password: Rachael510!
+      ssl_disabled: True

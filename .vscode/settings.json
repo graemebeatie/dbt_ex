@@ -1,6 +1,6 @@
 {
     "dbt.queryLimit": 500,
-    "python.pipenvPath": "~/miniconda3/envs/dbt-mysql-env/python.exe",
+    "python.pipenvPath": "dbt_venv/Scripts/python.exe",
     "files.associations": {
         // the pattern on the left side can be whatever you want: e.g.
         "**/jaffle_shop/**/*.sql": "jinja-sql", // just the .sqlfiles inside of jaffle_shop, or
