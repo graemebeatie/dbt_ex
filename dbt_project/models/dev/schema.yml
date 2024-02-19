@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: offices
+    description: "employee offices"
+    columns:
+      - name: officecode
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

@@ -1,5 +1,5 @@
-your_profile_name: dbt_project
-  target: classicmodels
+dbt_project:
+  target: dev
   outputs:
     dev:
       type: mysql
@@ -8,4 +8,13 @@ your_profile_name: dbt_project
       schema: analytics
       username: root
       password: Rachael510!
+      ssl_disabled: True
+    prod:
+      type: mysql
+      server: localhost
+      port: 3306
+      schema: analytics
+      username: graeme
+      password: Oremotsuyoi510!
+
       ssl_disabled: True
