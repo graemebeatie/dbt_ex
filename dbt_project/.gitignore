@@ -5,3 +5,4 @@ logs/
 dbt_venv/
 creds.py
 my_db.*
+__pychache__/
