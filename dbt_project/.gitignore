@@ -6,3 +6,4 @@ dbt_venv/
 creds.py
 my_db.*
 __pychache__/
+.user.yml
